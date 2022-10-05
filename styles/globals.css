@@ -21,6 +21,14 @@
   background-clip: padding-box;
 }
 
+::-moz-selection {
+  background: #00000025;
+}
+
+::selection {
+  background: #00000025;
+}
+
 .font-inter {
   font-family: Inter, system-ui, sans-serif;
 }
