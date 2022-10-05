@@ -4,7 +4,6 @@ import arm from '../public/arm.png'
 import heart from '../public/heart.png'
 import hammer_and_pick from '../public/hammer-and-pick.png'
 import event from '../public/event.png'
-import question_mark from '../public/question_mark.png'
 
 export default class Index extends React.Component {
     render() {
@@ -56,9 +55,6 @@ export default class Index extends React.Component {
                     </div>
                     <div className="container px-6 mx-auto my-12 grid gap-12">
                         <div className="py-12 bg-slate-800/10 rounded-[48px] px-6">
-                            <div className="grid place-items-center mb-3">
-                                <Image src={question_mark} width={64} height={64} />
-                            </div>
                             <h2 className="text-3xl font-extrabold font-manrope tracking-tight mb-6 text-center text-slate-500">Остались вопросы?</h2>
                             <div className='grid justify-items-center'>
                                 <p className="leading-relaxed max-w-lg mx-auto mb-8 text-center">Задавай их смело в нашем Discord сервере!</p>
