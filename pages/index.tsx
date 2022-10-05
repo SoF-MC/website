@@ -6,7 +6,6 @@ export class Home {
 	render() {
 		return (
 			<div>
-				<Nav />
 				<Index />
 			</div>
 		)
