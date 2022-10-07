@@ -6,7 +6,7 @@ export class Wiki {
 		return (
 			<div className='h-screen grid place-items-center'>
 				<div className='flex items-center'>
-					<Image src={hammer_and_pick} width={64} height={64} />
+					<Image alt='' src={hammer_and_pick} width={64} height={64} />
 					<p className='text-white font-montserrat mx-6 text-2xl text-center'>
 						Вики в разработке
 					</p>
