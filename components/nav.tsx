@@ -9,14 +9,14 @@ export default class Nav extends React.Component {
                     #SoF Mods
                 </p>
                 <div className='ml-[640px] pixel:ml-8'>
-                    <Link href="/" className='lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors'>
-                        <a>Главная</a>
+                    <Link href="/">
+                        <a className='lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors'>Главная</a>
                     </Link>
-                    <Link href="/wiki" className='lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors'>
-                        <a>Вики</a>
+                    <Link href="/wiki">
+                        <a className='lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors'>Вики</a>
                     </Link>
-                    <Link href="/bank" className='lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors'>
-                        <a>Банк</a>
+                    <Link href="/bank">
+                        <a className='lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors'>Банк</a>
                     </Link>
                 </div>
             </nav>
