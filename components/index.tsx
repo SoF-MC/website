@@ -65,7 +65,7 @@ export default class Index extends React.Component {
                             </div>
                             <h2 className="text-3xl font-extrabold font-manrope tracking-tight mb-6 text-center text-fuchsia-500">Vladirus</h2>
                             <div className='grid justify-items-center'>
-                            <p className="leading-relaxed max-w-lg mx-auto mb-8 text-center">Создатель оригинального #SoF&apos;a, ютубер, стример</p>
+                            <p className="leading-relaxed max-w-lg mx-auto mb-8 text-center">Создатель оригинального #SoF, ютубер, стример</p>
                                 <a href='https://www.donationalerts.com/r/vladirus' className='-mt-6 py-3 px-5 bg-zinc-500/10 hover:bg-zinc-400/10 rounded-2xl text-white text-manrope'>
                                     DonationAlerts
                                 </a>
