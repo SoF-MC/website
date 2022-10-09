@@ -1,13 +1,17 @@
 import Index from '../components'
+import Head from 'next/head'
 
-export class Home {
+export class PageIndex {
 	render() {
 		return (
 			<div>
+				<Head>
+                	<title>#SoF</title>
+            	</Head>
 				<Index />
 			</div>
 		)
 	}
 }
 
-export default new Home().render
+export default new PageIndex().render
