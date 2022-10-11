@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
                             <div className="text-xs font-light text-zinc-400 sm:text-base">We are in no way affiliated with or endorsed by Mojang, AB.</div>
                         </div>
                     </div>
-                    <div className='grid w-full grid-cols-1 text-zinc-400'>
+                    <div className='hidden lg:grid w-full grid-cols-1 text-zinc-400'>
                         <a href='https://vk.com/server_of_fun' className='justify-self-end'>Vk</a>
                         <a href='https://discord.com/invite/jZudXQM' className='justify-self-end'>Discord</a>
                     </div>
