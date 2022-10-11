@@ -6,6 +6,7 @@ import hammer_and_pick from '../public/hammer-and-pick.png'
 import event from '../public/event.png'
 import oplotDev from '../public/oplotDev.png'
 import Vladirus from '../public/Vladirus.png'
+import Link from 'next/link'
 
 export default class Index extends React.Component {
     render() {
@@ -19,10 +20,15 @@ export default class Index extends React.Component {
                                 – какой хороший бесплатный сервер с модами? <br/>
                                 – соф модс
                             </h1>
-                            <button className='mt-4 py-3 px-5 bg-zinc-500/10 hover:bg-zinc-400/10 rounded-2xl text-white text-manrope'>
+                            <button className='lg:ml-4 mt-4 py-3 px-5 bg-zinc-500/10 hover:bg-zinc-400/10 rounded-2xl text-white text-manrope'>
                                 <a href='https://discord.gg/jZudXQM'>
                                     Подать заявку!
                                 </a>
+                            </button>
+                            <button className='ml-2 mt-4 py-3 px-5 border border-zinc-500 hover:bg-zinc-500/10 rounded-2xl text-white text-manrope'>
+                                <Link href='/wiki/about'>
+                                    <a>О сервере</a>
+                                </Link>
                             </button>
                         </div>
                     </div>
