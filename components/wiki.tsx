@@ -94,7 +94,7 @@ export default class Wiki extends React.Component {
                                         Важно
                                     </div>
                                     <div className='bg-amber-300 rounded-[10px] text-black px-2 py-0.5 w-max ml-2'>
-                                        Обезательно
+                                        Обязательно
                                     </div>
                                 </div>
                                 <div className='text-base ml-2.5 mt-2'>
