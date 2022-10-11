@@ -25,7 +25,7 @@ export default class Wiki extends React.Component {
                         <div className='grid gap-4 lg:flex font-montserrat text-xl'>
                             <div className='w-[300px] outline outline-8 outline-offset-8 outline-zinc-800 rounded-2xl mt-8 ml-3'>
                                 <div className='flex items-center m-2'>
-                                    <Image src={wiki_about} width={32} height={32} />
+                                    <Image alt='' src={wiki_about} width={32} height={32} />
                                     <p className='ml-2'>
                                         О сервере
                                     </p>
@@ -51,7 +51,7 @@ export default class Wiki extends React.Component {
                             </div>
                             <div className='w-[300px] outline outline-8 outline-offset-8 outline-zinc-800 rounded-2xl mt-8 ml-3 lg:ml-12'>
                                 <div className='flex items-center m-2'>
-                                    <Image src={wiki_questions} width={32} height={32} />
+                                    <Image alt='' src={wiki_questions} width={32} height={32} />
                                     <p className='ml-2'>
                                         ЧЗВ
                                     </p>
@@ -74,7 +74,7 @@ export default class Wiki extends React.Component {
                             </div>
                             <div className='w-[300px] outline outline-8 outline-offset-8 outline-zinc-800 rounded-2xl mt-8 ml-3 lg:ml-12'>
                                 <div className='flex items-center m-2'>
-                                    <Image src={wiki_rules} width={32} height={32} />
+                                    <Image alt='' src={wiki_rules} width={32} height={32} />
                                     <p className='ml-2'>
                                         Правила
                                     </p>
