@@ -5,8 +5,8 @@ export class Rules {
 		return (
 			<div>
 				<Head>
-                	<title>#SoF - Правила</title>
-            	</Head>
+					<title>#SoF - Правила</title>
+				</Head>
 				<div>
 					<div className="py-24 text-white bg-zinc-900">
 						<h1 className="text-center font-manrope text-3xl">
@@ -66,7 +66,7 @@ export class Rules {
 						</div>
 						<div className="mx-4 lg:mx-64 my-4">
 							<h2 className="mt-12 font-manrope text-xl">
-							Правила Discord сервера
+								Правила Discord сервера
 							</h2>
 							<p className="font-montserrat mt-4">
 								<ul>
@@ -77,8 +77,8 @@ export class Rules {
 					</div>
 				</div>
 			</div>
-		)
-	}
-}
+		);
+	};
+};
 
-export default new Rules().render
+export default new Rules().render;

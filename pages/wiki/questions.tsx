@@ -1,12 +1,12 @@
-import Head from "next/head"
+import Head from "next/head";
 
 export class Questions {
 	render() {
 		return (
 			<div>
 				<Head>
-                	<title>#SoF - ЧЗВ</title>
-            	</Head>
+					<title>#SoF - ЧЗВ</title>
+				</Head>
 				<div>
 					<div className="py-24 text-white bg-zinc-900">
 						<h1 className="text-center font-manrope text-3xl">
@@ -63,8 +63,8 @@ export class Questions {
 					</div>
 				</div>
 			</div>
-		)
-	}
-}
+		);
+	};
+};
 
-export default new Questions().render
+export default new Questions().render;
