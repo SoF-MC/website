@@ -1,0 +1,11 @@
+{
+    "extends": [
+        "config:base",
+        ":preserveSemverRanges"
+    ],
+    "schedule": "at any time",
+    "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": "at any time"
+    }
+}
