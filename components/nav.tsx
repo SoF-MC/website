@@ -10,13 +10,13 @@ export default class Nav extends React.Component {
                 </p>
                 <div className="ml-[640px] pixel:ml-8">
                     <Link href="/">
-                        <a className="lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors">Главная</a>
+                        <span className="lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors">Главная</span>
                     </Link>
                     <Link href="/wiki">
-                        <a className="lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors">Вики</a>
+                        <span className="lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors">Вики</span>
                     </Link>
                     <Link href="/bank">
-                        <a className="lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors">Банк</a>
+                        <span className="lg:mx-4 text-white hover:bg-zinc-500/10 py-2 px-3 rounded-2xl transition-colors">Банк</span>
                     </Link>
                 </div>
             </nav>

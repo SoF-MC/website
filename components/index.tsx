@@ -21,13 +21,13 @@ export default class Index extends React.Component {
                                 – соф модс
                             </h1>
                             <button className="lg:ml-4 mt-4 py-3 px-5 bg-zinc-500/10 hover:bg-zinc-400/10 rounded-2xl text-white text-manrope">
-                                <a href="https://discord.com/invite/jZudXQM">
+                                <Link href="https://discord.com/invite/jZudXQM">
                                     Подать заявку!
-                                </a>
+                                </Link>
                             </button>
                             <button className="ml-2 mt-4 py-3 px-5 border border-zinc-500 hover:bg-zinc-500/10 rounded-2xl text-white text-manrope">
                                 <Link href="/wiki/about">
-                                    <a>О сервере</a>
+                                    О сервере
                                 </Link>
                             </button>
                         </div>
@@ -73,12 +73,12 @@ export default class Index extends React.Component {
                             <div className="grid justify-items-center">
                                 <p className="leading-relaxed max-w-lg mx-auto mb-8 text-center">Создатель оригинального #SoF, ютубер, стример</p>
                                 <div className="grid gap-8 lg:gap-2 lg:grid-cols-2 text-center">
-                                    <a href="https://www.donationalerts.com/r/vladirus" className="-mt-6 py-3 px-5 bg-zinc-500/10 hover:bg-zinc-400/10 rounded-2xl text-white text-manrope">
+                                    <Link href="https://www.donationalerts.com/r/vladirus" target={"_blank"} className="-mt-6 py-3 px-5 bg-zinc-500/10 hover:bg-zinc-400/10 rounded-2xl text-white text-manrope">
                                         DonationAlerts
-                                    </a>
-                                    <a href="https://www.youtube.com/c/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D1%80%D1%83%D1%81" className="-mt-6 py-3 px-5 bg-zinc-500/10 hover:bg-zinc-400/10 rounded-2xl text-white text-manrope">
+                                    </Link>
+                                    <Link href="https://www.youtube.com/c/Владирус" target={"_blank"} className="-mt-6 py-3 px-5 bg-zinc-500/10 hover:bg-zinc-400/10 rounded-2xl text-white text-manrope">
                                         YouTube
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -89,9 +89,9 @@ export default class Index extends React.Component {
                             <h2 className="text-3xl font-extrabold font-manrope tracking-tight mb-6 text-center text-zinc-500">MeiNanziiii (oplotDev)</h2>
                             <div className="grid justify-items-center">
                                 <p className="leading-relaxed max-w-lg mx-auto mb-8 text-center">Создатель и идея #SoF Mods, создатель сайта</p>
-                                <a href="https://www.buymeacoffee.com/meinanziiii" className="-mt-6 py-3 px-5 bg-zinc-500/10 hover:bg-zinc-400/10 rounded-2xl text-white text-manrope">
+                                <Link href="https://www.buymeacoffee.com/meinanziiii" target={"_blank"} className="-mt-6 py-3 px-5 bg-zinc-500/10 hover:bg-zinc-400/10 rounded-2xl text-white text-manrope">
                                     Buy me a coffee
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

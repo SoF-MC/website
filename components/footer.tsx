@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default class Footer extends React.Component {
@@ -12,8 +13,8 @@ export default class Footer extends React.Component {
                         </div>
                     </div>
                     <div className="hidden lg:grid w-full grid-cols-1 text-zinc-400">
-                        <a href="https://vk.com/server_of_fun" className="justify-self-end">VK</a>
-                        <a href="https://discord.com/invite/jZudXQM" className="justify-self-end">Discord</a>
+                        <Link href="https://vk.com/server_of_fun" target={"_blank"} className="justify-self-end">VK</Link>
+                        <Link href="https://discord.com/invite/jZudXQM" target={"_blank"} className="justify-self-end">Discord</Link>
                     </div>
                 </div>
             </footer>
