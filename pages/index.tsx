@@ -1,5 +1,5 @@
-import Index from "../components";
-import Head from "next/head";
+import Index from "../components/index"
+import Head from "next/head"
 
 export class PageIndex {
 	render() {
@@ -10,8 +10,8 @@ export class PageIndex {
 				</Head>
 				<Index />
 			</div>
-		);
-	};
-};
+		)
+	}
+}
 
-export default new PageIndex().render;
+export default new PageIndex().render

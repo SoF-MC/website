@@ -1,5 +1,5 @@
-import Wiki from "../components/wiki";
-import Head from "next/head";
+import Wiki from "../components/wiki"
+import Head from "next/head"
 
 export class PageWiki {
 	render() {
@@ -10,8 +10,8 @@ export class PageWiki {
 				</Head>
 				<Wiki />
 			</div>
-		);
-	};
-};
+		)
+	}
+}
 
-export default new PageWiki().render;
+export default new PageWiki().render
