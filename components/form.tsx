@@ -33,7 +33,7 @@ export default class Form extends React.Component {
                     className="font-montserrat hidden text-center text-xl text-red-500"
                     id="inputValue"
                 >
-                    Ошибка! Минимальный возраст 13 лет!
+                    Ошибка! Минимальный возраст - 13 лет.
                 </p>
                 <div className="mx-8 mt-6 grid gap-4 lg:mx-72">
                     <input
