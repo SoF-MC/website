@@ -1,17 +1,17 @@
-import Form from "../components/form"
-import Head from "next/head"
+import Form from "../components/form";
+import Head from "next/head";
 
 export class FormPage {
-	render() {
-		return (
-			<div>
-				<Head>
-					<title>#SoF - Заявка</title>
-				</Head>
-				<Form />
-			</div>
-		)
-	}
+    render() {
+        return (
+            <div>
+                <Head>
+                    <title>#SoF - Заявка</title>
+                </Head>
+                <Form />
+            </div>
+        );
+    }
 }
 
-export default new FormPage().render
+export default new FormPage().render;
