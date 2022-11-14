@@ -1,6 +1,6 @@
-import hammer_and_pick from "../public/hammer-and-pick.png";
 import Image from "next/image";
 import React from "react";
+import hammer_and_pick from "../public/hammer-and_pick.png"
 
 export default class Bank extends React.Component {
     render() {

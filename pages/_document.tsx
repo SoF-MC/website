@@ -1,6 +1,4 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
-import Footer from "../components/footer";
-import Nav from "../components/nav";
 
 class MyDocument extends Document {
     render() {
@@ -23,9 +21,7 @@ class MyDocument extends Document {
                     />
                 </Head>
                 <body className="font-inter w-full bg-zinc-900 bg-gradient-to-r from-violet-900/10 to-pink-900/10 antialiased">
-                    <Nav />
                     <Main />
-                    <Footer />
                     <NextScript />
                 </body>
             </Html>

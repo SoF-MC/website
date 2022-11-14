@@ -4,7 +4,7 @@ import React from "react";
 export default class Footer extends React.Component {
     render() {
         return (
-            <footer className="font-montserrat border-t border-zinc-800 bg-zinc-900">
+            <footer className="border-t border-zinc-800 font-montserrat bg-zinc-900 w-full mt-auto relative -bottom-16">
                 <div className="container mx-auto flex flex-col items-center px-4 py-5 sm:flex-row">
                     <div className="w-full lg:flex">
                         <div className="text-sm sm:ml-4">
