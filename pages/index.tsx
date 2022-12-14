@@ -1,4 +1,4 @@
-import Index from "../components";
+import Index from "../components/index";
 import Head from "next/head";
 
 export class PageIndex {
@@ -11,7 +11,7 @@ export class PageIndex {
 				<Index />
 			</div>
 		);
-	};
-};
+	}
+}
 
 export default new PageIndex().render;

@@ -9,95 +9,139 @@ export default class Wiki extends React.Component {
     render() {
         return (
             <div>
-                <div className="w-full bg">
-                    <div className="backdrop-blur-[6px] text-center text-white pt-48 pb-40">
+                <div className="bg w-full">
+                    <div className="pt-48 pb-40 text-center text-white backdrop-blur-[6px]">
                         <h1 className="font-manrope text-[2.75rem]">
                             Вики сервера
                         </h1>
-                        <p className="text-xl font-montserrat">
-                            Информация для <span className="underline">новичков</span> и <span className="underline">не только</span>
+                        <p className="font-montserrat text-xl">
+                            Информация для{" "}
+                            <span className="underline">новичков</span> и{" "}
+                            <span className="underline">не только</span>
                         </p>
                     </div>
                 </div>
-                <div className="py-12 border-t border-zinc-800 bg-zinc-900 grid gap-12">
-                    <div className="ml-8 font-manrope text-white text-3xl">
+                <div className="grid gap-12 border-t border-zinc-800 bg-zinc-900 py-12">
+                    <div className="font-manrope ml-8 text-3xl text-white">
                         Главное
-                        <div className="grid gap-4 lg:flex font-montserrat text-xl">
-                            <div className="w-[300px] outline outline-8 outline-offset-8 outline-zinc-800 rounded-2xl mt-8 ml-3">
-                                <div className="flex items-center m-2">
-                                    <Image alt="" src={wiki_about} width={32} height={32} />
-                                    <p className="ml-2">
-                                        О сервере
-                                    </p>
-                                    <button className="ml-2 p-2 rounded-2xl hover:bg-zinc-800/50">
+                        <div className="font-montserrat grid gap-4 text-xl lg:flex">
+                            <div className="mt-8 ml-3 w-[300px] rounded-2xl outline outline-8 outline-offset-8 outline-zinc-800">
+                                <div className="m-2 flex items-center">
+                                    <Image
+                                        alt=""
+                                        src={wiki_about}
+                                        width={32}
+                                        height={32}
+                                    />
+                                    <p className="ml-2">О сервере</p>
+                                    <button className="ml-2 rounded-2xl p-2 hover:bg-zinc-800/50">
                                         <Link href="/wiki/about">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                                                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="h-5 w-5"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                                                />
                                             </svg>
                                         </Link>
                                     </button>
                                 </div>
-                                <div className="mt-2 text-sm font-manrope ml-2 max-w-[280px] grid grid-cols-3">
-                                    <div className="bg-sky-300 rounded-[10px] text-black px-2 py-0.5 w-max">
+                                <div className="font-manrope mt-2 ml-2 grid max-w-[280px] grid-cols-3 text-sm">
+                                    <div className="w-max rounded-[10px] bg-sky-300 px-2 py-0.5 text-black">
                                         Новичкам
                                     </div>
-                                    <div className="bg-red-300 rounded-[10px] text-black px-2 py-0.5 w-max">
+                                    <div className="w-max rounded-[10px] bg-red-300 px-2 py-0.5 text-black">
                                         Важно
                                     </div>
                                 </div>
-                                <div className="text-base ml-2.5 mt-2">
+                                <div className="ml-2.5 mt-2 text-base">
                                     Информация о сервере
                                 </div>
                             </div>
-                            <div className="w-[300px] outline outline-8 outline-offset-8 outline-zinc-800 rounded-2xl mt-8 ml-3 lg:ml-12">
-                                <div className="flex items-center m-2">
-                                    <Image alt="" src={wiki_questions} width={32} height={32} />
-                                    <p className="ml-2">
-                                        ЧЗВ
-                                    </p>
-                                    <button className="ml-2 p-2 rounded-2xl hover:bg-zinc-800/50">
+                            <div className="mt-8 ml-3 w-[300px] rounded-2xl outline outline-8 outline-offset-8 outline-zinc-800 lg:ml-12">
+                                <div className="m-2 flex items-center">
+                                    <Image
+                                        alt=""
+                                        src={wiki_questions}
+                                        width={32}
+                                        height={32}
+                                    />
+                                    <p className="ml-2">ЧЗВ</p>
+                                    <button className="ml-2 rounded-2xl p-2 hover:bg-zinc-800/50">
                                         <Link href="/wiki/questions">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                                                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="h-5 w-5"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                                                />
                                             </svg>
                                         </Link>
                                     </button>
                                 </div>
-                                <div className="mt-2 text-sm font-manrope ml-2 max-w-[280px] grid grid-cols-3">
-                                    <div className="bg-sky-300 rounded-[10px] text-black px-2 py-0.5 w-max">
+                                <div className="font-manrope mt-2 ml-2 grid max-w-[280px] grid-cols-3 text-sm">
+                                    <div className="w-max rounded-[10px] bg-sky-300 px-2 py-0.5 text-black">
                                         Новичкам
                                     </div>
                                 </div>
-                                <div className="text-base ml-2.5 mt-2">
+                                <div className="ml-2.5 mt-2 text-base">
                                     Часто Задаваемые Вопросы
                                 </div>
                             </div>
-                            <div className="w-[300px] outline outline-8 outline-offset-8 outline-zinc-800 rounded-2xl mt-8 ml-3 lg:ml-12">
-                                <div className="flex items-center m-2">
-                                    <Image alt="" src={wiki_rules} width={32} height={32} />
-                                    <p className="ml-2">
-                                        Правила
-                                    </p>
-                                    <button className="ml-2 p-2 rounded-2xl hover:bg-zinc-800/50">
+                            <div className="mt-8 ml-3 w-[300px] rounded-2xl outline outline-8 outline-offset-8 outline-zinc-800 lg:ml-12">
+                                <div className="m-2 flex items-center">
+                                    <Image
+                                        alt=""
+                                        src={wiki_rules}
+                                        width={32}
+                                        height={32}
+                                    />
+                                    <p className="ml-2">Правила</p>
+                                    <button className="ml-2 rounded-2xl p-2 hover:bg-zinc-800/50">
                                         <Link href="/wiki/rules">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                                                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="h-5 w-5"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                                                />
                                             </svg>
                                         </Link>
                                     </button>
                                 </div>
-                                <div className="mt-2 text-sm font-manrope ml-2 max-w-[280px] flex">
-                                    <div className="bg-sky-300 rounded-[10px] text-black px-2 py-0.5 w-max">
+                                <div className="font-manrope mt-2 ml-2 flex max-w-[280px] text-sm">
+                                    <div className="w-max rounded-[10px] bg-sky-300 px-2 py-0.5 text-black">
                                         Новичкам
                                     </div>
-                                    <div className="bg-red-300 rounded-[10px] text-black px-2 py-0.5 w-max ml-2">
+                                    <div className="ml-2 w-max rounded-[10px] bg-red-300 px-2 py-0.5 text-black">
                                         Важно
                                     </div>
-                                    <div className="bg-amber-300 rounded-[10px] text-black px-2 py-0.5 w-max ml-2">
+                                    <div className="ml-2 w-max rounded-[10px] bg-amber-300 px-2 py-0.5 text-black">
                                         Обязательно
                                     </div>
                                 </div>
-                                <div className="text-base ml-2.5 mt-2">
+                                <div className="ml-2.5 mt-2 text-base">
                                     Правила проекта
                                 </div>
                             </div>
@@ -106,5 +150,5 @@ export default class Wiki extends React.Component {
                 </div>
             </div>
         );
-    };
-};
+    }
+}
